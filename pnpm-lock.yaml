@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@builder.io/qwik': 0.21.0
-  '@builder.io/qwik-city': 0.5.3
+  '@builder.io/qwik': 0.23.0
+  '@builder.io/qwik-city': 0.6.5
   '@types/eslint': 8.21.1
   '@types/node': ^18.14.0
   '@types/node-fetch': latest
@@ -22,8 +22,8 @@ dependencies:
   sass: 1.59.3
 
 devDependencies:
-  '@builder.io/qwik': 0.21.0_undici@5.20.0
-  '@builder.io/qwik-city': 0.5.3_@builder.io+qwik@0.21.0
+  '@builder.io/qwik': 0.23.0_undici@5.20.0
+  '@builder.io/qwik-city': 0.6.5_@builder.io+qwik@0.23.0
   '@types/eslint': 8.21.1
   '@types/node': 18.15.3
   '@types/node-fetch': 2.6.2
@@ -40,13 +40,13 @@ devDependencies:
 
 packages:
 
-  /@builder.io/qwik-city/0.5.3_@builder.io+qwik@0.21.0:
-    resolution: {integrity: sha512-9S5IlcD5rUdrHHITvBkENNPdW6Tzu6ZAPlvdjFjN6qu92XB1IaNncxkpReOapNp1AoEjpaDxRzAYAN+jEsliJQ==}
+  /@builder.io/qwik-city/0.6.5_@builder.io+qwik@0.23.0:
+    resolution: {integrity: sha512-XGEoF2Q9tBeofjwtqxyZjA+3V50WDJTfhDjlHD1w2ShqyAZOnzxySrgznLfGG86H5YqOPNW9cH5uZ+ZINssYuA==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
-      '@builder.io/qwik': '>=0.20.0'
+      '@builder.io/qwik': '>=0.22.0'
     dependencies:
-      '@builder.io/qwik': 0.21.0_undici@5.20.0
+      '@builder.io/qwik': 0.23.0_undici@5.20.0
       '@mdx-js/mdx': 2.3.0
       '@types/mdx': 2.0.3
       source-map: 0.7.4
@@ -56,8 +56,8 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik/0.21.0_undici@5.20.0:
-    resolution: {integrity: sha512-YDQcCSGPgXLQkY260N4XvYavxPNHewzIzIjqbl9hvnnk7a1s4EkcCrkudbGCl6VkkiQsDKMYPsemy4sFpKlafg==}
+  /@builder.io/qwik/0.23.0_undici@5.20.0:
+    resolution: {integrity: sha512-srbA4o9KyeGXA0fUibZW7I6iasjYhpBlp1Iq74dLTB4Py66wfazpekZ+qi57XcuSj3cBPf/Rsz/yxvQx5DwM2g==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
